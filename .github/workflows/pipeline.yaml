@@ -17,7 +17,7 @@ jobs:
     - name: checkout the repository
       uses: actions/checkout@v2
     - name: upload the artifact
-      uses: actiond/upload-artifact@v2
+      uses: actions/upload-artifact@v2
       with:
         name: hello
         path: .
